@@ -18,11 +18,11 @@ public class Test {
 
         //quiero mostrar toda la info en una ficha
         System.out.println("************************************");
-        System.out.println("**********FICHA DE PERSONA***********");
+        System.out.println("**********FICHA DE PERSONA**********");
         System.out.println("************************************");
         System.out.println("Nombre: " + nombre);
         System.out.println("Apellido: " + apellido);
-        System.out.println("Inciales: " + nombre.charAt(0) + "." + apellido.charAt(0) );
+        System.out.println("Iniciales: " + nombre.charAt(0) + "." + apellido.charAt(0) );
         System.out.println("Fecha de nacimiento: " + diaNacimiento + "/" + mesNacimiento + "/"
         + anioNacimiento);
         System.out.println("************************************");
