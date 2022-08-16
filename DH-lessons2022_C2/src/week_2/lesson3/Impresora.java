@@ -56,4 +56,7 @@ public class Impresora {
         return true;
     }
 
+    public void setFechaFabricacion(Calendar fechaFabricacion) {
+        this.fechaFabricacion = fechaFabricacion;
+    }
 }
