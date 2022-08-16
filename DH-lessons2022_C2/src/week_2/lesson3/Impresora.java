@@ -1,12 +1,13 @@
 package week_2.lesson3;
 
+import java.time.LocalDate;
 import java.util.Calendar;
 
 public class Impresora {
     //atributos
     private String modelo;
     private Boolean conexionInalambrica;
-    private Calendar fechaFabricacion;
+    private LocalDate fechaFabricacion;
     private Integer cantHojas;
     private Boolean prendida;
 
@@ -56,7 +57,11 @@ public class Impresora {
         return true;
     }
 
-    public void setFechaFabricacion(Calendar fechaFabricacion) {
+    public void setFechaFabricacion(LocalDate fechaFabricacion) {
         this.fechaFabricacion = fechaFabricacion;
+    }
+
+    public LocalDate getFechaFabricacion(){
+        return this.fechaFabricacion;
     }
 }
