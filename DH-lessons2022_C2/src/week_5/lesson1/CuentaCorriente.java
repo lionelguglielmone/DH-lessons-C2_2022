@@ -14,7 +14,7 @@ public class CuentaCorriente extends Cuenta implements ImpuestoGravable{
     }
 
     public Double gravar(Double porcentaje) {
-        
+
         return 2.0;
     }
 }
