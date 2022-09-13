@@ -4,7 +4,7 @@ public class Test {
     public static void main(String[] args) {
         GaseosaFactory gf = GaseosaFactory.getInstance();
         Gaseosa gc1 = gf.fabricarGaseosa("colaChica");
-        
+
 
         /*
         GaseosaCola gc1 = new GaseosaCola("Bicho Cola", 1.5);
