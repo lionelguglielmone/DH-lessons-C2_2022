@@ -1,4 +1,4 @@
-package week_8;
+package week_8.lesson1;
 
 import java.util.ArrayList;
 
